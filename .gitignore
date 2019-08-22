@@ -1,0 +1,6 @@
+build
+bin
+cmake-build-debug
+.gdb_history
+.idea
+.vscode
