@@ -6,25 +6,25 @@
 
 namespace nes
 {
-    class cpu
-    {
-    private:
-        isa::mode mode;
-        isa::istr istr;
+	class cpu
+	{
+	private:
+		isa::mode mode;
+		isa::istr istr;
 
-        struct regs
-        {
-            isa::word pc;
-            isa::byte sp;
-            isa::byte sr;
-            isa::byte a;
-            isa::byte x;
-            isa::byte y;
-        };
+		struct regs
+		{
+			isa::word pc;
+			isa::byte sp;
+			isa::byte sr;
+			isa::byte a;
+			isa::byte x;
+			isa::byte y;
+		};
 
-    public:
+	public:
 
-    };
+	};
 }
 
 #endif // CPU_HPP

@@ -5,5 +5,5 @@
 
 int main()
 {
-    std::cout << "Working!\n";
+	std::cout << "Working!\n";
 }
