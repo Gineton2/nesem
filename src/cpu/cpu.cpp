@@ -1,8 +1,9 @@
 #include <iostream>
+#include <cstdint>
 
 #include "cpu.hpp"
 
 int main()
 {
-    std::cout << "testing, 123...\n";
+    std::cout << "Working!\n";
 }
